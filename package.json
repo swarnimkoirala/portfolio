@@ -2,6 +2,7 @@
   "name": "swarnim-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://swarnimkoirala.github.io/swarnim-portfolio",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.3.0",
@@ -13,8 +14,11 @@
     "react-tsparticles": "^2.12.2"
   },
   "scripts": {
-    "start": "react-scripts start"
+  "start": "react-scripts start",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -26,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
