@@ -1,0 +1,172 @@
+/* Home.css */
+/* Background animation container */
+.background-animation {
+  position: fixed; /* Stay fixed behind all content */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* behind everything */
+  overflow: hidden;
+  background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
+  background-size: 600% 600%;
+  animation: BackgroundGradientAnimation 20s ease infinite;
+  pointer-events: none; /* So clicks pass through */
+}
+
+/* Animate the background gradient */
+@keyframes BackgroundGradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
+
+.section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.section:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.skill-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.skill-name {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.education-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.education-title {
+  font-weight: bold;
+}
+
+.education-logo {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.certificates-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.certificate-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+  text-align: center;
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.certificate-icon {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.certificate-name {
+  font-size: 0.85rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}

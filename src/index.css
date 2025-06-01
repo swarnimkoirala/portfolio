@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* index.css */
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #0d1117; /* GitHub style dark */
+  color: #c9d1d9;
+  padding-top: 80px; /* for fixed navbar */
+  min-height: 100vh;
+}
+
+a, .nav-link {
+  color: #58a6ff;
+  transition: color 0.3s ease;
+}
+
+a:hover, .nav-link:hover, .nav-link.active {
+  color: #1f6feb;
+}
+
+.navbar {
+  background-color: #161b22 !important;
+  box-shadow: 0 2px 8px rgba(88, 166, 255, 0.15);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #58a6ff !important;
+  font-size: 1.6rem;
+}
+
+section.card {
+  background: #161b22;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+section.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px #58a6ff;
+}
+
+section.card img.icon {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 5px #58a6ff);
+}
+
+section h2 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #58a6ff;
+  margin-bottom: 1rem;
+}
+
+section .content {
+  flex-grow: 1;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  color: #adbac7;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  section.card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  section.card img.icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+  }
 }
