@@ -322,7 +322,17 @@ const Home = () => {
         <h2>Work Experience</h2>
 
         {[
-          
+          {
+            logo: '/logo/salesforce.png',
+            title: 'Independent Project',
+            company: 'Self-Initiated',
+            dates: 'March 2025 – Present',
+            description: [
+              'Worked on a personal web development project integrating Salesforce Visualforce content.',
+              'Project URL: https://orgfarm-a86b9305f8-dev-ed.develop.my.salesforce-sites.com/',
+            ],
+            embedUrl: 'https://orgfarm-a86b9305f8-dev-ed.develop.my.salesforce-sites.com/',
+          },
         
           {
             logo: '/logo/cio.png',
