@@ -328,7 +328,7 @@ const Home = () => {
             company: 'Self-Initiated',
             dates: 'March 2025 – Present',
             description: [
-              'Worked on a personal web development project integrating Salesforce Visualforce content.',
+              'Worked on this personal web development project integrating Salesforce Visualforce content.',
               'Project URL: https://orgfarm-a86b9305f8-dev-ed.develop.my.salesforce-sites.com/',
             ],
             embedUrl: 'https://orgfarm-a86b9305f8-dev-ed.develop.my.salesforce-sites.com/',
