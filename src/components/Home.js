@@ -323,7 +323,7 @@ const Home = () => {
 
         {[
           {
-            logo: '/logo/independent.png',
+            logo: '/logo/salesforce.png',
             title: 'Independent Project',
             company: 'Self-Initiated',
             dates: 'March 2025 – Present',
