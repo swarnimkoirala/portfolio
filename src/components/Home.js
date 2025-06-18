@@ -323,6 +323,18 @@ const Home = () => {
 
         {[
           {
+            logo: '/logo/independent.png',
+            title: 'Independent Project',
+            company: 'Self-Initiated',
+            dates: 'March 2025 – Present',
+            description: [
+              'Worked on a personal web development project integrating Salesforce Visualforce content.',
+              'Project URL: https://your-visualforce-public-url.com/apex/YourVisualforcePage',
+            ],
+            embedUrl: 'https://your-visualforce-public-url.com/apex/YourVisualforcePage',
+          },
+        
+          {
             logo: '/logo/cio.png',
             title: 'Web Developer (Internship)',
             company: 'ChakraIO',
