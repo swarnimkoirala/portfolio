@@ -1,26 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.73d0248b.chunk.css",
-    "main.js": "/portfolio/static/js/main.93dcb0b4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.93dcb0b4.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/css/2.75ab8c2b.chunk.css": "/portfolio/static/css/2.75ab8c2b.chunk.css",
-    "static/js/2.308925e2.chunk.js": "/portfolio/static/js/2.308925e2.chunk.js",
-    "static/js/2.308925e2.chunk.js.map": "/portfolio/static/js/2.308925e2.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.9ce7d8490c787d6134273cb09ba74fad.js": "/portfolio/precache-manifest.9ce7d8490c787d6134273cb09ba74fad.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.75ab8c2b.chunk.css.map": "/portfolio/static/css/2.75ab8c2b.chunk.css.map",
-    "static/css/main.73d0248b.chunk.css.map": "/portfolio/static/css/main.73d0248b.chunk.css.map",
-    "static/media/alison.jpg": "/portfolio/static/media/alison.1edd4bd8.jpg",
-    "static/media/aws.png": "/portfolio/static/media/aws.2aac98d0.png",
-    "static/media/cio.png": "/portfolio/static/media/cio.154bd9f8.png",
-    "static/media/drawio.png": "/portfolio/static/media/drawio.fec89836.png",
-    "static/media/gcpd.png": "/portfolio/static/media/gcpd.e38c0552.png",
-    "static/media/googlecloud.png": "/portfolio/static/media/googlecloud.b3af3f41.png",
-    "static/media/hero-image.jpg": "/portfolio/static/media/hero-image.6e8eefaa.jpg",
-    "static/media/logo.jpg": "/portfolio/static/media/logo.84c76369.jpg",
-    "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.84c76369.jpg"
-  }
+    "main.css": "/swarnim-portfolio/static/css/main.f8fe5fce.css",
+    "main.js": "/swarnim-portfolio/static/js/main.16124a5e.js",
+    "static/media/hero-image.jpg": "/swarnim-portfolio/static/media/hero-image.5c143999c95e1d17a659.jpg",
+    "static/media/logo.jpg": "/swarnim-portfolio/static/media/logo.67b603627fac7e3d3924.jpg",
+    "static/media/profile-image.jpg": "/swarnim-portfolio/static/media/profile-image.67b603627fac7e3d3924.jpg",
+    "index.html": "/swarnim-portfolio/index.html",
+    "main.f8fe5fce.css.map": "/swarnim-portfolio/static/css/main.f8fe5fce.css.map",
+    "main.16124a5e.js.map": "/swarnim-portfolio/static/js/main.16124a5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8fe5fce.css",
+    "static/js/main.16124a5e.js"
+  ]
 }
