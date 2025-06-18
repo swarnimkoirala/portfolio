@@ -329,9 +329,9 @@ const Home = () => {
             dates: 'March 2025 – Present',
             description: [
               'Worked on a personal web development project integrating Salesforce Visualforce content.',
-              'Project URL: https://your-visualforce-public-url.com/apex/YourVisualforcePage',
+              'Project URL: https://orgfarm-a86b9305f8-dev-ed.develop.my.salesforce-sites.com/',
             ],
-            embedUrl: 'https://your-visualforce-public-url.com/apex/YourVisualforcePage',
+            embedUrl: 'https://orgfarm-a86b9305f8-dev-ed.develop.my.salesforce-sites.com/',
           },
         
           {
