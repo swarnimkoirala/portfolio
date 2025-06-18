@@ -345,6 +345,7 @@ const Home = () => {
               'Perform website maintenance, including troubleshooting bugs and applying security updates.',
               'Collaborate with designers and content creators to integrate multimedia content.',
               'Assist in testing website responsiveness and cross-browser compatibility.',
+              'Visit the project website at https://chakraio.com/'
             ],
           },
           {
