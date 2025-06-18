@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f8fe5fce.css",
-    "main.js": "/portfolio/static/js/main.51593060.js",
+    "main.js": "/portfolio/static/js/main.035f8091.js",
     "static/media/hero-image.jpg": "/portfolio/static/media/hero-image.5c143999c95e1d17a659.jpg",
     "static/media/gcpd.png": "/portfolio/static/media/gcpd.7ab492dda755ec04ef12.png",
     "static/media/googlecloud.png": "/portfolio/static/media/googlecloud.e3c95f14d9c11b3802e9.png",
@@ -9,13 +9,15 @@
     "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.67b603627fac7e3d3924.jpg",
     "static/media/drawio.png": "/portfolio/static/media/drawio.4d70bef023269c312521.png",
     "static/media/alison.jpg": "/portfolio/static/media/alison.ff3813cd6d88db131c31.jpg",
+    "static/media/cio.png": "/portfolio/static/media/cio.645211870460c298cf53.png",
     "static/media/aws.png": "/portfolio/static/media/aws.6b58065618d775f3c545.png",
+    "static/media/salesforce.png": "/portfolio/static/media/salesforce.f935ac0ec38cd1120b07.png",
     "index.html": "/portfolio/index.html",
     "main.f8fe5fce.css.map": "/portfolio/static/css/main.f8fe5fce.css.map",
-    "main.51593060.js.map": "/portfolio/static/js/main.51593060.js.map"
+    "main.035f8091.js.map": "/portfolio/static/js/main.035f8091.js.map"
   },
   "entrypoints": [
     "static/css/main.f8fe5fce.css",
-    "static/js/main.51593060.js"
+    "static/js/main.035f8091.js"
   ]
 }
